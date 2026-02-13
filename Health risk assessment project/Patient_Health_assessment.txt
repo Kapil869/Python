@@ -1,0 +1,9 @@
+Name:Dhruv
+BMI:22.49134948096886
+Water Needed:2.145L
+Health Status:Green Flag
+
+Name:Shivam
+BMI:24.489795918367346
+Water Needed:2.475L
+Health Status:Green Flag
