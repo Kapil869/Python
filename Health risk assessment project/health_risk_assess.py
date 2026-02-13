@@ -84,11 +84,11 @@ def main():
                 else:
                     print("Enter either Male or Female")
             except Exception as exc:
-                print("An error occurred while entering gender:", exc)
+                print("An error occurred while entering gender :", exc)
         #Weight Error Handling
         while True:
             try:
-                input_weight = float(input("Enter Weight in kg:"))
+                input_weight = float(input("Enter Weight in kg :"))
                 if input_weight>1 and input_weight<=300:
                     break
                 else:
@@ -98,7 +98,7 @@ def main():
         #Height error handling 
         while True:
             try:
-                input_height = float(input("Enter Height in cm: "))
+                input_height = float(input("Enter Height in cm :"))
                 if input_height>=1 and input_height<=250:
                     break
                 else:
@@ -108,7 +108,7 @@ def main():
         #Life style Error handling
         while True:
             try:
-                input_lifestyle = input("Smoker/Non-Smoker: ")
+                input_lifestyle = input("Smoker/Non-Smoker :")
                 if input_lifestyle=="Smoker" or input_lifestyle=="Non-Smoker":
                     break
                 else:
@@ -117,7 +117,7 @@ def main():
                 print("An Error occured")
         while True:
             try:
-                input_water_intake =float(input("Enter Water intake:"))
+                input_water_intake =float(input("Enter Water intake :"))
                 if input_water_intake<15:
                     break
                 else:
